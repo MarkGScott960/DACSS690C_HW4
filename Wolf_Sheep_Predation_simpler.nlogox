@@ -73,7 +73,7 @@ to go
 
   ask wolves [
     wander
-    set energy energy - 0.5 ; MODIFIED wolves lose 1/2 unit of energy
+    set energy energy - 0.25 ; MODIFIED wolves lose 1/4 unit of energy
     eat-sheep ; wolves eat (if available at their location)
     timeToDie ; wolves die from starvation (no energy left)
     reproduce-wolves ; wolves reproduce at a random rate governed by a slider
